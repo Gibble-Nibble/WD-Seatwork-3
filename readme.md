@@ -110,8 +110,6 @@ WD-ProjectName
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
-|     |  └─ media
-|     |  |  └─ 
 |     └─ index.html
 |  └─ footer-gallery
 |     └─ assets
