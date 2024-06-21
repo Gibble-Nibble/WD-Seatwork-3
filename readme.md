@@ -110,13 +110,16 @@ WD-ProjectName
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
-|     |  └─ media
-|     |  |  └─ 
 |     └─ index.html
 |  └─ footer-gallery
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
+|     |  └─ img
+|     |     |  487c7f07ffc30df361f2fa4c4732dbad-removebg.png
+|     |     |  icons8-facebook-50.png
+|     |     |  icons8-instagram-50.png
+|     |     └─ icons8-twitter-50.png
 |     └─ index.html
 └─ index.html
 └─ readme.md
