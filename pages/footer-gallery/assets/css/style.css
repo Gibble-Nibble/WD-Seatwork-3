@@ -309,3 +309,165 @@ body {
     font-size: 14px;
 }
 /* End of Gradient Footer */
+
+
+
+/* Bouncing Footer */
+.bouncing-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+.bouncing-footer p {
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+/* End of Bouncing Footer */
+
+
+
+/* Animated Gradient Footer */
+.footer-g {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+.gradient-bg {
+    background: linear-gradient(to right, #cc7376, #fad0c4);
+    background-size: 200% auto;
+    animation: gradientAnimation 4s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% center;
+    }
+
+    50% {
+        background-position: 100% center;
+    }
+
+    100% {
+        background-position: 0% center;
+    }
+}
+/* End of Animated Gradient Footer */
+
+
+
+/*Animated Social Footer*/
+.footer-s {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons ul li {
+    margin: 0 10px;
+    animation: float 3s infinite alternate;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.social-icons ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+.social-icons ul li a:hover {
+    color: #ffcc00;
+}
+/*End of Animated Social Footer*/
+
+
+
+/*Typing Footer*/
+.footer-tt {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+.typing-text .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 20px;
+    background-color: white;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.typing-text .typed-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20, end);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+/*End of Typing Footer*/
+
+
+
+/* Sliding Footer */
+.footer-sl {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    opacity: 0; /* Initially hide the footer */
+    animation: slideUp 2s ease 10s infinite;
+  }
+
+@keyframes slideUp {
+    0%, 100% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* End of Sliding Footer */
