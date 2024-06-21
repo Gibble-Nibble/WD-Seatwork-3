@@ -1,0 +1,311 @@
+/*Global*/
+.footer-container {
+    background-color: #100f13;
+    border-style: solid;
+    border-color: #3a3a3a;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+/* Style the scrollbar itself (width, background) */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width of the scrollbar */
+  }
+
+  /* Style the track of the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #1f1e22; /* Light grey track */
+  }
+
+  /* Style the thumb of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Dark grey thumb */
+    border-radius: 5px; /* Rounded corners for the thumb */
+  }
+
+  /* Change the thumb color on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker shade on hover */
+  }
+/* End of Global */
+
+
+
+/* Nav Bar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1e22;
+    color:white;
+}
+
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #454453;
+    color: white;
+}
+/* End of Nav Bar */
+
+
+
+/* Footer 1 - Minimalist */
+.classic-footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* End of Footer 1 - Minimalist */
+
+
+
+/* Footer 2 - Nature */
+.nature-footer {
+    background-color: #5e8e3e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* End of Footer 2 - Nature */
+
+
+
+/* Socials Footer */
+.social-footer {
+    background-color: #007bb5;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* End of Socials Footer */
+
+
+
+/* Typography Footer */
+.typography-footer {
+    background-color: #292929;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact {
+    margin-top: 20px;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* End of Typography Footer */
+
+
+
+/* Gradient Footer */
+.gradient-footer {
+    background: linear-gradient(to right, #ff6f61, #6b5b95);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* End of Gradient Footer */

@@ -1,0 +1,46 @@
+body{
+    background-color: #23272b;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* This makes the container take the full height of the viewport */
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0px;
+  padding: 2% 5%;
+  background-color: #007bff;
+  border-style: solid;
+  border-color: azure;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  border-color: rgb(181, 204, 204);
+}
+
+h1,h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color:white;
+}
+
+p {
+  padding-top: 80px;
+  color:white;
+  text-align: center;
+}
+
+.container {
+  padding: 35px;
+  margin: 200px;
+}
