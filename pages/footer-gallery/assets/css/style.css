@@ -452,21 +452,20 @@ body {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
     position: relative;
-    bottom: 0;
     width: 100%;
-    opacity: 0; /* Initially hide the footer */
-    animation: slideUp 2s ease 10s infinite;
+    animation: slideUp 2s ease-out forwards infinite;
+    animation-delay: 0s, 5s;
   }
 
 @keyframes slideUp {
-    0%, 100% {
+    0%, 20% {
         transform: translateY(100%);
         opacity: 0;
     }
 
-    50% {
+    20%, 100% {
         transform: translateY(0);
         opacity: 1;
     }
