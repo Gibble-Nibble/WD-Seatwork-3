@@ -14,6 +14,7 @@
 <!-- TODO: Make a short description -->
 <div align="center">
   In this project, I've compiled 5 Static and 5 Animated headers & footer designs in a website.
+  <a href="https://gibble-nibble.github.io/WD-Seatwork-3/">Click here to access the website</a>
 </div>
 
 <br />
